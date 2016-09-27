@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 自适应参考至推荐文章(http://blog.csdn.net/damys/article/details/24363769) -->
+    <title> my first task </title>
+    <style>
+        .scr {
+            width: 100%;
+            height: auto;
+            float: left;
+            margin: 0;
+        }
+        /* 容纳九个圆角矩形的容器(screen,只一个 */
+        .row {
+            width: 100%;;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        /* 容纳一行三个圆角矩形的容器(row)，共三个 */
+        .box {
+            width: 20%;
+            height: 0;
+            padding-bottom: 20%;
+            margin: 0.5%;
+            float: left;
+            background-color: moccasin;
+            border: thick solid mistyrose;
+            -webkit-border-radius: 10%;
+            -moz-border-radius: 10%;
+            border-radius: 10%;
+        }
+        /* 这里为了实现高宽定比，利用了padding,参看至三年前的一篇博客
+           (http://zihua.li/2013/12/keep-height-relevant-to-width-using-css/) */
+        .foo {
+            clear: both;
+            text-align: center;
+        }
+        /* 其作用为clear,参考至W3School(http://www.w3school.com.cn/css/css_positioning_floating.asp) */
+    </style>
+</head>
+<body>
+<div class="scr ">
+    <div class="row">
+        <div class="box "></div>
+        <div class="box "></div>
+        <div class="box "></div>
+    </div>
+    <div class="row">
+        <div class="box "></div>
+        <div class="box "></div>
+        <div class="box "></div>
+    </div>
+    <div class="row">
+        <div class="box "></div>
+        <div class="box "></div>
+        <div class="box "></div>
+    </div>
+</div>
+<br/>
+<hr/>
+<footer class="foo">
+    <p>创建者：白衣落水</p>
+</footer>
+</body>
+
+</html>
