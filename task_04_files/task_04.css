@@ -1,0 +1,163 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: mintcream;
+}
+
+/* 列表页 */
+.header {
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 0 0.5rem 0;
+    background-color: #5FC0CD;
+    line-height: 3rem;
+    color: mintcream;
+    text-align: center;
+}
+
+.header .grbi {
+    display: inline-block;
+    line-height: 3rem;
+    margin: 0 0 0 1rem;
+    float: left;
+}
+
+.header .dglu {
+    display: inline-block;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header .vuce {
+    display: inline-block;
+    line-height: 3rem;
+    margin: 0 1rem 0 0;
+    float: right;
+}
+
+/* 账号输入框 */
+.input-user {
+    background-color: snow;
+    height: 3rem;
+    margin: 3.5rem 0 0.5rem 0;
+    position: relative;
+}
+
+.input-user-iphone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto 0 auto 1rem;
+}
+
+.input-user-line {
+    background: lightgray;
+    width: 0.1rem;
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -1rem;
+    margin-left: 3rem;
+}
+
+.input-user-form {
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: gray;
+    font-size: 1.1rem;
+    background: snow;
+    border: none;
+}
+
+/* 密码输入框 */
+.input-pw {
+    background-color: snow;
+    height: 3rem;
+    margin: 0;
+    position: relative;
+}
+
+.input-pw-lock {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto 0 auto 1rem;
+}
+
+.input-pw-line {
+    background: lightgray;
+    width: 0.1rem;
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -1rem;
+    margin-left: 3rem;
+}
+
+.input-pw-form {
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: gray;
+    font-size: 1.1rem;
+    background: snow;
+    border: none;
+}
+
+/* 登录按钮 */
+.login {
+    width: 100%;
+    height: 3rem;
+    margin: 2rem 0 0 0;
+    background-color: #5FC0CD;
+    position: relative;
+}
+
+.submit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: mintcream;
+    background: #5FC0CD;
+    border: none;
+}
+
+.fget {
+    display: block;
+    margin: 1rem;
+    color: #5FC0CD;
+    text-align: right;
+}
