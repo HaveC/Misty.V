@@ -1,0 +1,328 @@
+/*
+    color.Num.1 : #5FC0CD;
+    color.Num.2 : #E26163
+*/
+body {
+    min-width: 320px;
+    margin: 0;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav Bar */
+.bar {
+    width: 100%;
+    height: 3rem;
+    background: #5FC0CD;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.bar .title {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.bar .back {
+    max-height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+/* show */
+.show {
+    width: 100%;
+    height: 16rem;
+    margin: 0;
+    position: relative;
+    top: 3rem;
+    background: url("bgimg.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;;
+}
+
+.show .circle {
+    background: white url("portrait.png") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    border-radius: 4rem;
+    position: absolute;
+    margin: 4rem 1rem 4rem 4rem;
+}
+
+
+.show .profile {
+    color: white;
+    position: absolute;
+    left: 15rem;
+    top: 6rem;
+}
+
+.show .profile .name {
+    font-size: 1.5rem;
+}
+
+.show .profile .age {
+    vertical-align: top;
+    font-size: 1.2rem;
+}
+
+.show .place {
+    margin: 0.7rem 0;
+    vertical-align: top;
+    font-size: 0.9rem;
+}
+
+/* Skills */
+.row01 {
+    width: 100%;
+    height: 4rem;
+    border-bottom: solid lightgray 0.05rem;
+    margin: 3rem 0 0;
+    position: relative;
+}
+
+.row01 .line01 {
+    max-height: 1.2rem;
+    margin: 1.4rem 1.3rem 1.4rem 2rem;
+}
+
+.row01 .wor-skill {
+    font-size: 1.5rem;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.85rem;
+}
+
+.row02 {
+    width: calc(100% - 2rem);
+    height: 4rem;
+    border-bottom: solid lightgray 0.05rem;
+    margin: 0 0 0 2rem;
+    position: relative;
+}
+
+.row02 .star01 {
+    max-height: 1.2rem;
+    margin: 1.4rem 0 1.4rem 1.5rem;
+}
+
+.row02 .wor-vujx {
+    font-size: 1.3rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+    margin: -0.75rem 0.5rem 0 3.2rem;
+    padding-right: 1rem;
+    border-right: 0.05rem solid lightgray;
+}
+
+.row02 .star02 {
+    max-height: 1.2rem;;
+    margin: 1.4rem 0 1.4rem 4.75rem;
+}
+
+.row02 .wor-bhjcj {
+    font-size: 1.3rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+    margin: -0.75rem 0 0 9.65rem;
+}
+
+.row03 {
+    width: calc(100% - 2rem);
+    height: 4rem;
+    border-bottom: solid lightgray 0.05rem;
+    margin: 0 0 0 2rem;
+    position: relative;
+}
+
+.row03 .cynx {
+    color: silver;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 1rem 0 1.5rem;
+    padding-right: 1rem;
+    border-right: 0.05rem solid lightgray;
+}
+
+.row03 .value01 {
+    color: black;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 0 0 9.5rem;
+}
+
+.row04 {
+    width: calc(100% - 2rem);
+    height: 4rem;
+    border-bottom: solid lightgray 0.05rem;
+    margin: 0 0 0 2rem;
+    position: relative;
+}
+
+.row04 .gzuj {
+    color: silver;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 1rem 0 1.5rem;
+    padding-right: 1rem;
+    border-right: 0.05rem solid lightgray;
+}
+
+.row04 .value02 {
+    color: black;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 0 0 9.5rem;
+}
+
+.row05 {
+    width: calc(100% - 2rem);
+    height: 4rem;
+    border-bottom: solid lightgray 0.05rem;
+    margin: 0 0 0 2rem;
+    position: relative;
+}
+
+.row05 .fwjg {
+    color: silver;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 1rem 0 1.5rem;
+    padding-right: 1rem;
+    border-right: 0.05rem solid lightgray;
+}
+
+.row05 .value03 {
+    color: #E26163;
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 0 0 9.5rem;
+}
+
+.row06 {
+    width: calc(100% - 2rem);
+    height: 4rem;
+    border-bottom: solid lightgray 0.05rem;
+    margin: 0 0 6rem 2rem;
+    position: relative;
+}
+
+.row06 .zwju {
+    color: silver;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -0.75rem 1rem 0 1.5rem;
+    padding-right: 1rem;
+    border-right: 0.05rem solid lightgray;
+}
+
+.row06 .value04 {
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -1.15rem 0 0 9.5rem;
+    max-width: calc(100% - 12rem);
+}
+
+@media screen and (min-device-width: 900px) {
+    .row06 .value04 {
+        margin: -0.5rem 0 0 9.5rem;
+    }
+}
+
+/* Foot */
+.foot-left {
+    width: 50%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: white;
+}
+
+.foot-right {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: white;
+}
+
+.foot-left .ly {
+    width: calc(100% - 4rem);
+    max-width: 25rem;
+    height: 3rem;
+    background: white;
+    border: 0.1rem solid #5FC0CD;
+    margin: 1rem auto 1rem auto;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #5FC0CD;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.foot-right .dhlx {
+    width: calc(100% - 4rem);
+    max-width: 25rem;
+    height: 3rem;
+    background: #5FC0CD;
+    border: 0.1rem solid white;
+    margin: 1rem auto 1rem auto;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
