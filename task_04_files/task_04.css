@@ -85,6 +85,9 @@ a {
     font-size: 1.1rem;
     background: snow;
     border: none;
+    width: -moz-calc(100% - 4rem);
+    width: -webkit-calc(100% - 4rem);
+    width: calc(100% - 4rem);/* 此三行为解决fileoverview问题的代码 */
 }
 
 /* 密码输入框 */
@@ -128,6 +131,9 @@ a {
     font-size: 1.1rem;
     background: snow;
     border: none;
+    width: -moz-calc(100% - 4rem);
+    width: -webkit-calc(100% - 4rem);
+    width: calc(100% - 4rem);/* 此三行为解决fileoverview问题的代码 */
 }
 
 /* 登录按钮 */

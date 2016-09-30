@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+  @fileoverview "Task_04"
+        如何实现延伸输入框至满屏？目前的问题是，我不明白为什么当输入框的width设置得比较大时
+    （例如90%），“注册”二字会随着屏幕width的改变而陷进右边框里去（就好像出现了负margin一
+    样）？我猜想问题出在“注册”是float: right的，而输入框或者他的父元素是靠margin-top支撑
+    起来的，应该是这两者产生了冲突。但我改来改去效果都不理想（在不改变上述两点的情况下）。
+        用其他方法保持“注册”居右？当然可以，但是我想解决这个冲突，对现在的我来说很难理解这
+    两者为何会冲突。
+        此问题暂且按下，日后再表。
+                                     —— 2016-09-28
+        此问题已完美解决，详见CSS。
+                                     —— 2016-09-29
+  @author "白衣落水"
+-->
+<head>
+    <meta charset="UTF-8"/>
+    <title>请登录 - 白衣落水</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <base target="_blank"/>
+    <link rel="stylesheet" href="task_04_files/task_04.css" type="text/css">
+</head>
+
+<body>
+<header class="header">
+    <a href="https://www.google.com.hk/" class="grbi">关闭</a>
+    <a href="https://www.google.com.hk/" class="dglu">登录</a>
+    <a href="https://www.google.com.hk/" class="vuce">注册</a>
+</header>
+<div class="input-user">
+    <img class="input-user-iphone" src="task_04_files/iphone.png" alt="error"/><!-- 绝对居中 -->
+    <div class="input-user-line"></div><!-- 负边距居中 -->
+    <div>
+        <input class="input-user-form" type="text" name="user" form="onlyone" placeholder="请输入您的手机号"/>
+    </div>
+</div>
+<div class="input-pw">
+    <img class="input-pw-lock" src="task_04_files/locked.png" alt="error"/><!-- 绝对居中 -->
+    <div class="input-pw-line"></div><!-- 负边距居中 -->
+    <div>
+        <input class="input-pw-form" type="password" name="user" form="onlyone" formmethod="post"
+               placeholder="请输入您的密码"/>
+    </div>
+</div>
+<div class="login">
+    <input class="submit" type="submit" value="登 录" id="onlyone"/>
+</div>
+<a href="https://www.google.com.hk/" class="fget">忘记密码？</a>
+</body>
+</html>
